@@ -303,3 +303,30 @@ p {
 }
 
 HTML and CSS Comments
+
+From the HTML tutorial, you learned that you can add comments to your HTML source by using the <!--...--> syntax.
+
+In the following example, we use a combination of HTML and CSS comments:
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: red; /* Set text color to red */
+}
+</style>
+</head>
+<body>
+
+<h2>My Heading</h2>
+
+<!-- These paragraphs will be red -->
+<p>Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+<p>CSS comments are not shown in the output.</p>
+
+</body>
+</html>
+
+-CSS Colors-
