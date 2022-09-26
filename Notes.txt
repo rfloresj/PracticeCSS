@@ -340,3 +340,7 @@ Tomato, Orange, DodgerBlue, MediumSeaGreen, Gray, Violet...
 
 CSS Background Color
 
+You can set the background color for HTML elements:
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
