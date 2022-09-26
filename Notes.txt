@@ -329,4 +329,14 @@ p {
 </body>
 </html>
 
--CSS Colors-
+--CSS Colors--
+
+Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+
+CSS Color Names
+In CSS, a color can be specified by using a predefined color name:
+
+Tomato, Orange, DodgerBlue, MediumSeaGreen, Gray, Violet...
+
+CSS Background Color
+
