@@ -525,3 +525,52 @@ hsla(hue, saturation, lightness, alpha)
 The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
 
 --CSS Backgrounds--
+
+The CSS background properties are used to add background effects for elements.
+
+In these chapters, you will learn about the following CSS background properties:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background (shorthand property)
+
+CSS background-color
+
+The background-color property specifies the background color of an element.
+
+Example
+The background color of a page is set like this:
+
+body {
+  background-color: lightblue;
+}
+
+With CSS, a color is most often specified by:
+
+a valid color name - like "red"
+a HEX value - like "#ff0000"
+an RGB value - like "rgb(255,0,0)"
+Look at CSS Color Values for a complete list of possible color values.
+
+Other Elements
+You can set the background color for any HTML elements:
+
+Example
+Here, the <h1>, <p>, and <div> elements will have different background colors: 
+
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+}
+
+Opacity / Transparency
