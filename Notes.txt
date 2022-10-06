@@ -600,5 +600,25 @@ div {
   background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
 }
 
+--CSS Background Image--
+
+The background-image property specifies an image to use as the background of an element.
+
+By default, the image is repeated so it covers the entire element.
+
+Set the background image for a page: 
+
+body {
+  background-image: url("paper.gif");
+}
+
+The background image can also be set for specific elements, like the <p> element:
+
+Example
+p {
+  background-image: url("paper.gif");
+}
+
+
 
 
