@@ -619,6 +619,26 @@ p {
   background-image: url("paper.gif");
 }
 
+--CSS Background Image Repeat--
+
+CSS background-repeat
+By default, the background-image property repeats an image both horizontally and vertically.
+
+Some images should be repeated only horizontally or vertically, or they will look strange, like this:
+
+Example
+body {
+  background-image: url("gradient_bg.png");
+}
+If the image above is repeated only horizontally (background-repeat: repeat-x;), the background will look better:
+
+Example
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+
+To repeat an image vertically, set background-repeat: repeat-y;
 
 
 
