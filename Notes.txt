@@ -640,5 +640,5 @@ body {
 
 To repeat an image vertically, set background-repeat: repeat-y;
 
-
+CSS background-repeat: no-repeat
 
