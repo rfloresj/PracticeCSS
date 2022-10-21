@@ -857,3 +857,15 @@ p.one {
   border-color: rgb(255, 0, 0); /* red */
 }
 
+HSL Values
+You can also use HSL values:
+
+Example
+p.one {
+  border-style: solid;
+  border-color: hsl(0, 100%, 50%); /* red */
+}
+
+You can learn more about HEX, RGB and HSL values in our CSS Colors chapters.
+
+--CSS Border Sides--
