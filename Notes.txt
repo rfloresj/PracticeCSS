@@ -1172,4 +1172,68 @@ div {
 
 -Padding - Shorthand Property-
 
+To shorten the code, it is possible to specify all the padding properties in one property.
+
+The padding property is a shorthand property for the following individual padding properties:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+So, here is how it works:
+
+If the padding property has four values:
+
+padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+Example
+Use the padding shorthand property with four values:
+
+div {
+  padding: 25px 50px 75px 100px;
+}
+
+If the padding property has three values:
+
+padding: 25px 50px 75px;
+top padding is 25px
+right and left paddings are 50px
+bottom padding is 75px
+Example
+Use the padding shorthand property with three values: 
+
+div {
+  padding: 25px 50px 75px;
+}
+
+If the padding property has two values:
+
+padding: 25px 50px;
+top and bottom paddings are 25px
+right and left paddings are 50px
+Example
+Use the padding shorthand property with two values: 
+
+div {
+  padding: 25px 50px;
+}
+
+If the padding property has one value:
+
+padding: 25px;
+all four paddings are 25px
+Example
+Use the padding shorthand property with one value: 
+
+div {
+  padding: 25px;
+}
+
+--Padding and Element Width--
+
+
+
 
