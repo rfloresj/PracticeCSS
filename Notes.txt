@@ -1474,3 +1474,26 @@ p.ex4 {outline: thick ridge pink;}
 
 --CSS Outline Offset--
 
+The outline-offset property adds space between an outline and the edge/border of an element. 
+The space between an element and its outline is transparent.
+
+The following example specifies an outline 15px outside the border edge:
+
+p {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+
+The following example shows that the space between an element and its outline is transparent:
+
+Example
+p {
+  margin: 30px;
+  background: yellow;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+
