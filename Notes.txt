@@ -2067,5 +2067,18 @@ Courier New is the most widely used monospace serif font. Courier New is often u
 Brush Script MT (cursive)
 The Brush Script MT font was designed to mimic handwriting. It is elegant and sophisticated, but can be hard to read. Use it carefully.
 
+--CSS Font Fallbacks--
+
+Commonly Used Font Fallbacks
+Below are some commonly used font fallbacks, organized by the 5 generic font families:
+
+Serif
+Sans-serif
+Monospace
+Cursive
+Fantasy
+
+--CSS Font Style--
+
 
 
