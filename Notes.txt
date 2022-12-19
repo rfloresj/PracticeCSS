@@ -3022,6 +3022,43 @@ td {
 }
 
 -CSS Table Style-
+Table Padding
+To control the space between the border and the content in a table, use the padding property on <td> and <th> elements
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+Horizontal Dividers
+
+Add the border-bottom property to <th> and <td> for horizontal dividers
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+**Hoverable Table
+Use the :hover selector on <tr> to highlight table rows on mouse over.
+
+tr:hover {background-color: coral;}
+
+Striped Tables
+
+For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+Table Color
+
+The example below specifies the background color and text color of <th> elements
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+--CSS Responsive Table--
 
 
 
