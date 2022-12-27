@@ -3356,7 +3356,7 @@ https://www.w3schools.com/css/css_positioning.asp
 
 --CSS Layout - The z-index Property--
 
-The z-index property specifies the stack order of an element.
+lThe z-index property specifies the stack order of an element.
 
 The z-index Property
 When elements are positioned, they can overlap other elements.
@@ -3447,9 +3447,6 @@ Same example as above, but here with no z-index specified:
   margin: 30px;
 }
 
---CSS Layout - Overflow--
-
-
 .gray-box {
   position: absolute;
   background: lightgray;
@@ -3479,4 +3476,131 @@ Same example as above, but here with no z-index specified:
 
 </body>
 </html>
+
+--CSS Layout - Overflow--
+
+The CSS overflow property controls what happens to content that is too big to fit into an area.
+
+The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+The overflow property has the following values:
+
+visible - Default. The overflow is not clipped. The content renders outside the element's box
+hidden - The overflow is clipped, and the rest of the content will be invisible
+scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+auto - Similar to scroll, but it adds scrollbars only when necessary
+
+Note: The overflow property only works for block elements with a specified height.
+
+Note: In OS X Lion (on Mac), scrollbars are hidden by default and only shown when being used (even though "overflow:scroll" is set).
+
+overflow: visible
+By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box:
+
+Example
+div {
+  width: 200px;
+  height: 65px;
+  background-color: coral;
+  overflow: visible;
+}
+
+overflow: hidden
+With the hidden value, the overflow is clipped, and the rest of the content is hidden.
+
+div {
+  overflow: hidden;
+}
+
+**overflow: scroll
+Setting the value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box. Note that this will add a 
+scrollbar both horizontally and vertically (even if you do not need it):
+
+Example
+div {
+  overflow: scroll;
+}
+
+overflow: auto
+The auto value is similar to scroll, but it adds scrollbars only when necessary:
+
+div {
+  overflow: auto;
+}
+
+overflow-x and overflow-y
+
+**The overflow-x and overflow-y properties specifies whether to change the overflow of content just horizontally or vertically (or both):
+
+overflow-x specifies what to do with the left/right edges of the content.
+overflow-y specifies what to do with the top/bottom edges of the content.
+
+Example
+div {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+--CSS Layout - float and clear--
+
+The CSS float property specifies how an element should float.
+
+The CSS clear property specifies what elements can float beside the cleared element and on which side.
+
+The float Property
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+
+The float property can have one of the following values:
+
+left - The element floats to the left of its container
+right - The element floats to the right of its container
+none - The element does not float (will be displayed just where it occurs in the text). This is default
+inherit - The element inherits the float value of its parent
+**In its simplest use, the float property can be used to wrap text around images
+
+Example - float: right;
+The following example specifies that an image should float to the right in a text.
+
+img {
+  float: right;
+}
+
+Example - float: left;
+The following example specifies that an image should float to the left in a text.
+
+img {
+  float: left;
+}
+
+Example - No float
+In the following example the image will be displayed just where it occurs in the text (float: none;).
+
+img {
+  float: none;
+}
+
+8Example - Float Next To Each Other
+Normally div elements will be displayed on top of each other. However, if we use float: left we can let elements float next to each other.
+
+div {
+  float: left;
+  padding: 15px;
+}
+
+.div1 {
+  background: red;
+}
+
+.div2 {
+  background: yellow;
+}
+
+.div3 {
+  background: green;
+}
+
+--CSS Layout - clear and clearfix--
+
+
+
 
