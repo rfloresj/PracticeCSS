@@ -3915,3 +3915,43 @@ img {
 
 Left and Right Align - Using position
 
+One method for aligning elements is to use position: absolute;:
+
+Example
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.
+
+Left and Right Align - Using float
+
+Another method for aligning elements is to use the float property:
+
+Example
+.right {
+  float: right;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+**The clearfix Hack
+
+Note: If an element is taller than the element containing it, and it is floated, it will overflow outside of its container. You can use the "clearfix hack" to fix this (see example below).
+
+Then we can add the clearfix hack to the containing element to fix this problem:
+
+Example
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+Center Vertically - Using padding
+
