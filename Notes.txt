@@ -3955,3 +3955,40 @@ Example
 
 Center Vertically - Using padding
 
+There are many ways to center an element vertically in CSS. A simple solution is to use top and bottom padding:
+
+.center {
+  padding: 70px 0;
+  border: 3px solid green;
+}
+
+To center both vertically and horizontally, use padding and text-align: center:
+
+Example
+.center {
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
+}
+
+**Center Vertically - Using line-height
+Another trick is to use the line-height property with a value that is equal to the height property:
+
+Example
+.center {
+  line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
+}
+
+/* If the text has multiple lines, add the following: */
+.center p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+Center Vertically - Using position & transform
+
+
